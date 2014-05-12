@@ -2,9 +2,5 @@
 
 angular.module('playoutsApp')
   .controller('TopCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  	$scope.counter = 0;
   });

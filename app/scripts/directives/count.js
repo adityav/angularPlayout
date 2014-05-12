@@ -3,13 +3,13 @@
 angular.module('playoutsApp')
   .directive('count', function () {
     return {
-      template: '<div></div>',
+      template: '<div>{{counter}}</div>',
       restrict: 'E',
       scope: {
-      	counter: '='
+				counter: '='
       },
       link: function postLink(scope, element, attrs) {
-        element.text(counter);
+        //element.text(counter);
       }
     };
   });
