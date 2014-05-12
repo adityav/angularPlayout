@@ -2,5 +2,7 @@
 
 angular.module('playoutsApp')
   .controller('TopCtrl', function ($scope) {
-  	$scope.counter = 0;
+  	$scope.counter = {
+  		count: 0
+  	};
   });
